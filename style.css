@@ -18,7 +18,7 @@
  main{
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 100px;
  }
  .wrapper{
     max-width: 1100px;
@@ -90,6 +90,7 @@ a{
     height: 584px;
     margin-top: 20px;
     display: flex;
+    padding-bottom: 50px;
 }
 .col{
     width: 550px;
@@ -202,11 +203,14 @@ a{
 .s-wrap{
     width: 514px;
     border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .s-wrap-1,
 .s-wrap-4{
     height: 260px;
-    border: 1px solid #000;
+    border: 1.5px solid #000;
     -webkit-box-shadow: 0px 9px 0px 0px rgba(0,0,0,1);
 -moz-box-shadow: 0px 9px 0px 0px rgba(0,0,0,1);
 box-shadow: 0px 9px 0px 0px rgba(0,0,0,1);
@@ -216,4 +220,21 @@ box-shadow: 0px 9px 0px 0px rgba(0,0,0,1);
 .s-wrap-3{
     height: 268px;
     background: #000;
+}
+.ww-ui-1{
+    width: 195px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ss-txt{
+    margin: 0 !important;
+}
+.seo-txt{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+    background: #B6FF6E;
+    padding: 2px 10px;
 }
